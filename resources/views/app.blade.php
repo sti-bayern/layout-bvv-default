@@ -15,7 +15,7 @@
         <script src="https://kit.fontawesome.com/176dc61361.js" crossorigin="anonymous"></script>
 
         <!-- Scripts -->
-        <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="{{ asset('vendor/layout-bvv-default/js/app.js') }}" defer></script>
 
         {{-- @livewireStyles --}}
     </head>
@@ -31,7 +31,7 @@
 
         <!-- Page Content -->
         <main class="container px-4 py-3 mt-4 bg-white rounded shadow-sm">
-            hallo1s
+            hallo Paket
             @yield('content')
         
             asdfasdf
